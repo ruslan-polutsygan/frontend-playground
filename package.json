@@ -1,0 +1,8 @@
+{
+    "name": "frontend-playground",
+    "private": true,
+    "dependencies": {
+        "gulp": "3.9.0",
+        "yargs": "1.3.2"
+    }
+}
