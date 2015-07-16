@@ -3,3 +3,5 @@
 /web/app/dist/
 /web/app/vendor/
 /r.js
+
+/dist/server/

@@ -1,6 +1,9 @@
-var gulp = require('gulp'),
-    exec = require('child_process').exec,
-    argv = require('yargs').argv;
+var gulp = require('gulp');
+var exec = require('child_process').exec;
+var argv = require('yargs').argv;
+var ts = require('gulp-typescript');
+var nodemon = require('gulp-nodemon');
+//var livereload = require('gulp-livereload');
 
 gulp.task('copy', function () {
     // almond
@@ -31,6 +34,31 @@ gulp.task('rjs', function (cb) {
         cb(err);
     });
 });
+
+gulp.task('typescript', function(){
+    gulp.src('./server/**/*')
+        .pipe(ts({module: 'commonjs'}))
+        .js
+        .pipe(gulp.dest('./dist/server'))
+});
+
+gulp.task('watch', function () {
+   gulp.watch('./server/**/*', ['typescript']);
+});
+
+gulp.task('serve', ['watch'], function () {
+    //livereload.listen();
+    nodemon({
+        script: './dist/server/index',
+        ext: 'js'
+    }).on('reload', function () {
+        //setTimeout(function () {
+        //    livereload.changed();
+        //}, 500);
+    });
+});
+
+//gulp.task('deploy')
 
 gulp.task('build', ['copy', 'rjs']);
 gulp.task('default', ['build']);
