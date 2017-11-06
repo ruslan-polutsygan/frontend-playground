@@ -8,7 +8,7 @@
         "gulp-nodemon": "~2.0.3",
         "gulp-typescript": "~2.7.8",
         "gulp-livereload": "~3.8.0",
-        "@ruslan-test-org/package-test-api": "~1.1.8",
+        "@ruslan-test-org/package-test-api": "1.1.1",
         "clone-deep": "^0.2.1"
     }
 }
