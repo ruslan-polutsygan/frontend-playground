@@ -25,9 +25,9 @@
     is-stream "*"
     tar-stream "*"
 
-"@ruslan-test-org/package-test-api@^1.1.1":
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/@ruslan-test-org/package-test-api/-/package-test-api-1.1.47.tgz#7b98b3460b3a7f9b897109273090ee370cc80df1"
+"@ruslan-test-org/package-test-api@^1.1.48":
+  version "1.1.48"
+  resolved "https://registry.yarnpkg.com/@ruslan-test-org/package-test-api/-/package-test-api-1.1.48.tgz#e9521d91e710520f8543df263be17b3aa69b92ad"
   dependencies:
     npm-publish-programmatically "^1.0.1"
 
