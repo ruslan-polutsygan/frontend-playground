@@ -26,8 +26,8 @@
     tar-stream "*"
 
 "@ruslan-test-org/package-test-api@^1.1.1":
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/@ruslan-test-org/package-test-api/-/package-test-api-1.1.47.tgz#7b98b3460b3a7f9b897109273090ee370cc80df1"
+  version "1.1.70"
+  resolved "https://registry.yarnpkg.com/@ruslan-test-org/package-test-api/-/package-test-api-1.1.70.tgz#7ab23d6390d35feac4768eed2b53408da18dc809"
   dependencies:
     npm-publish-programmatically "^1.0.1"
 
