@@ -26,8 +26,8 @@
     tar-stream "*"
 
 "@ruslan-test-org/package-test-api@^1.1.1":
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/@ruslan-test-org/package-test-api/-/package-test-api-1.1.47.tgz#7b98b3460b3a7f9b897109273090ee370cc80df1"
+  version "1.1.87"
+  resolved "https://registry.yarnpkg.com/@ruslan-test-org/package-test-api/-/package-test-api-1.1.87.tgz#4c0c48c73a5410f7f4f7cfe62abc75e36995bdd2"
   dependencies:
     npm-publish-programmatically "^1.0.1"
 
@@ -50,8 +50,8 @@ ajv@^4.9.1:
     json-stable-stringify "^1.0.1"
 
 ajv@^5.1.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.3.0.tgz#4414ff74a50879c208ee5fdc826e32c303549eda"
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.5.1.tgz#b38bb8876d9e86bee994956a04e721e88b248eb2"
   dependencies:
     co "^4.6.0"
     fast-deep-equal "^1.0.0"
@@ -701,9 +701,13 @@ extglob@^0.3.1:
   dependencies:
     is-extglob "^1.0.0"
 
-extsprintf@1.3.0, extsprintf@^1.2.0:
+extsprintf@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
+
+extsprintf@^1.2.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
 fancy-log@^1.1.0:
   version "1.3.0"
@@ -2603,8 +2607,8 @@ tar-pack@^3.4.0:
     uid-number "^0.0.6"
 
 tar-stream@*:
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-1.5.4.tgz#36549cf04ed1aee9b2a30c0143252238daf94016"
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-1.5.5.tgz#5cad84779f45c83b1f2508d96b09d88c7218af55"
   dependencies:
     bl "^1.0.0"
     end-of-stream "^1.0.0"
